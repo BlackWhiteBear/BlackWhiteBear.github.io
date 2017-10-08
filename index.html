@@ -42,10 +42,10 @@
 <div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="" class="profilepic">
-			<img src="" class="js-avatar">
+			<img src="/img/head.png" class="js-avatar">
 		</a>
 		<hgroup>
-		  <h1 class="header-author"><a href="">John Doe</a></h1>
+		  <h1 class="header-author"><a href="">Kuma</a></h1>
 		</hgroup>
 		
 
@@ -53,8 +53,6 @@
 			<ul>
 			
 				<li><a href="/">主页</a></li>
-	        
-				<li><a href="/tags/随笔/">随笔</a></li>
 	        
 			</ul>
 		</nav>
@@ -65,10 +63,6 @@
     			
             
     			
-    			<a q-on="click: openSlider(e, 'friends')" href="javascript:void(0)">友链</a>
-    			
-            
-    			
     			<a q-on="click: openSlider(e, 'aboutme')" href="javascript:void(0)">关于我</a>
     			
             
@@ -76,13 +70,7 @@
 		<nav class="header-nav">
 			<div class="social">
 				
-					<a class="github" target="_blank" href="#" title="github"><i class="icon-github"></i></a>
-		        
-					<a class="weibo" target="_blank" href="#" title="weibo"><i class="icon-weibo"></i></a>
-		        
-					<a class="rss" target="_blank" href="#" title="rss"><i class="icon-rss"></i></a>
-		        
-					<a class="zhihu" target="_blank" href="#" title="zhihu"><i class="icon-zhihu"></i></a>
+					<a class="github" target="_blank" href="https://github.com/BlackWhiteBear" title="github"><i class="icon-github"></i></a>
 		        
 			</div>
 		</nav>
@@ -100,15 +88,13 @@
 	<div class="intrude-less">
 		<header id="header" class="inner">
 			<div class="profilepic">
-				<img src="" class="js-avatar">
+				<img src="/img/head.png" class="js-avatar">
 			</div>
 			<hgroup>
-			  <h1 class="header-author js-header-author">John Doe</h1>
+			  <h1 class="header-author js-header-author">Kuma</h1>
 			</hgroup>
 			
 			
-			
-				
 			
 				
 			
@@ -117,13 +103,7 @@
 			<nav class="header-nav">
 				<div class="social">
 					
-						<a class="github" target="_blank" href="#" title="github"><i class="icon-github"></i></a>
-			        
-						<a class="weibo" target="_blank" href="#" title="weibo"><i class="icon-weibo"></i></a>
-			        
-						<a class="rss" target="_blank" href="#" title="rss"><i class="icon-rss"></i></a>
-			        
-						<a class="zhihu" target="_blank" href="#" title="zhihu"><i class="icon-zhihu"></i></a>
+						<a class="github" target="_blank" href="https://github.com/BlackWhiteBear" title="github"><i class="icon-github"></i></a>
 			        
 				</div>
 			</nav>
@@ -132,9 +112,7 @@
 				<ul style="width: 50%">
 				
 				
-					<li style="width: 50%"><a href="/">主页</a></li>
-		        
-					<li style="width: 50%"><a href="/tags/随笔/">随笔</a></li>
+					<li style="width: 100%"><a href="/">主页</a></li>
 		        
 				</ul>
 			</nav>
@@ -150,6 +128,113 @@
           </div>
           <div id="js-content" class="content-ll">
             
+  
+    <article id="post-hexo+gitpages=blog" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/10/07/hexo+gitpages=blog/">hexo+gitpages=blog</a>
+    </h1>
+  
+
+        
+        <a href="/2017/10/07/hexo+gitpages=blog/" class="archive-article-date">
+  	<time datetime="2017-10-07T15:35:34.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-10-07</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h4 id="首先我们需要做的事情："><a href="#首先我们需要做的事情：" class="headerlink" title="首先我们需要做的事情："></a>首先我们需要做的事情：</h4><ul>
+<li>github账户</li>
+<li>安装git</li>
+<li>安装nodejs</li>
+<li>安装hexo</li>
+</ul>
+<h4 id="好吧-现在开始一步一步来吧。"><a href="#好吧-现在开始一步一步来吧。" class="headerlink" title="好吧,现在开始一步一步来吧。"></a>好吧,现在开始一步一步来吧。</h4><h5 id="创建GitHub账号"><a href="#创建GitHub账号" class="headerlink" title="创建GitHub账号"></a>创建GitHub账号</h5><p>首先点击<a href="https://github.com/" target="_blank" rel="external">github官网</a>,然后自己创建一个账号。</p>
+<h5 id="新建项目"><a href="#新建项目" class="headerlink" title="新建项目"></a>新建项目</h5><p>这一步有一个很大的坑，在创建项目的时候，你的项目名一定要和你GitHub用户名一样，然后加上github.io。拿我的例子来说，我的用户名是BlackWhiteBear,所以我的项目名就是BlackWhiteBear.github.io。如下图：<br><img src="/assets/blogImg/newgit.png" alt="创建项目仓库"></p>
+<p>项目仓库名=用户名+.github.io<br>项目仓库名=用户名+.github.io<br>项目仓库名=用户名+.github.io</p>
+<p>重要的事情说三遍。</p>
+<h5 id="安装nodejs"><a href="#安装nodejs" class="headerlink" title="安装nodejs"></a>安装nodejs</h5><p>参考地址：<a href="http://www.runoob.com/nodejs/nodejs-install-setup.html" target="_blank" rel="external">安装nodejs</a></p>
+<h5 id="安装git客户端"><a href="#安装git客户端" class="headerlink" title="安装git客户端"></a>安装git客户端</h5><p>安装git：</p>
+<p>参考地址：<a href="https://liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/00137396287703354d8c6c01c904c7d9ff056ae23da865a000" target="_blank" rel="external">安装git</a></p>
+<p>git安装完成之后需要链接本地和GitHub网站的ssh钥匙：参考地址：<a href="http://www.cnblogs.com/ayseeing/p/3572582.html" target="_blank" rel="external">添加ssh</a></p>
+<p>另外对于不了解GitHub的同学，建议将廖雪峰大神的GitHub教程全部看一遍，鄙人觉得很有用。</p>
+<h5 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h5><p>在D盘新建一个hexo文件夹，然后在当前问价夹下鼠标邮件打开git bash</p>
+<p><img src="/assets/blogImg/gitbash.png" alt="open git bash"></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-cli -g</div><div class="line">$ hexo init BlackWhiteBear.github.io</div><div class="line">$ npm install</div><div class="line">$ hexo g</div><div class="line">$ hexo s</div></pre></td></tr></table></figure>
+<p>注意这里的<code>hexo init BlackWhiteBear.github.io</code>创建的文件夹名一定要和你GitHub项目仓库的名字相同。</p>
+<p>到这里没有错误的话，打开浏览器输入localhost:4000应该就会看到下面的画面：</p>
+<p><img src="/assets/blogImg/hexo.png" alt="hexo安装成功"></p>
+<p>hexo是GitHub上的开源项目，主要就是博客的框架，后台基于nodejs写成的（学渣并不是很懂，以后看了nodejs在回来了解。）</p>
+<p>安装了hexo之后，相信很多审美较高的同学会觉得这个博客不太好看，但没关系，hexo既然出来了，当然git上也不缺乏其他觉得博客不好看的大神，他们就自己做了很多博客主题，接下来，我们换主题：</p>
+<p>这里我们一GitHub上的hexo-theme-yilia为例</p>
+<p><img src="/assets/blogImg/clonegit.png" alt="yilia themes"></p>
+<p>先点击<a href="https://github.com/litten/hexo-theme-yilia" target="_blank" rel="external">hexo-theme-yilia</a>到hexo-theme-yilia的GitHub项目网站，然后点击绿色的按钮clone with download获取ssh，然后再git bash上输入下面的命令(注意此时bash的路径是在BlackWhiteBear.github.io文件夹下)：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git clone git@github.com:litten/hexo-theme-yilia.git themes/yilia</div></pre></td></tr></table></figure></p>
+<p>下载成功后，我们打开BlackWhiteBear.github.io文件夹下的_config.yml文件找到theme:默认的theme是landscape，我们将它改为我们刚下载的yilia主题。<br><img src="/assets/blogImg/configtheme.png" alt="yilia主题"></p>
+<p>让后再在git bash下输入(此时bash的路径是在BlackWhiteBear.github.io文件夹下):<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ hexo clean</div><div class="line">$ hexo g</div><div class="line">$ hexo s</div></pre></td></tr></table></figure></p>
+<p>如果没有任何问题的话你会看到如下：</p>
+<p><img src="/assets/blogImg/yilia.png" alt="yilia 主题应用成功"></p>
+<h5 id="将hexo部署到GitHub上去"><a href="#将hexo部署到GitHub上去" class="headerlink" title="将hexo部署到GitHub上去"></a>将hexo部署到GitHub上去</h5><p>终于到了最后一步了，我们打开在BlackWhiteBear.github.io文件夹下面的_config.yml，拖到最下面，找到deploy，然后按下面输入：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">deploy:</div><div class="line">  type: git</div><div class="line">  repo: git@github.com:BlackWhiteBear/BlackWhiteBear.github.io.git</div><div class="line">  branch: master</div></pre></td></tr></table></figure>
+<p><strong>注意大坑</strong><br>yml文件格式非常严格，在每个冒号后面必须添加一个空格，否则，不是报错就是运行没反应。</p>
+<p>添加完成之后，再在bash中输入下面的命令：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">$ hexo clean </div><div class="line">$ hexo g</div><div class="line">$ hexo s</div><div class="line">$ hexo d</div></pre></td></tr></table></figure></p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">blog</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2017/10/07/hexo+gitpages=blog/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
   
     <article id="post-hello-world" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
@@ -232,7 +317,7 @@
   <div class="outer">
     <div id="footer-info">
     	<div class="footer-left">
-    		&copy; 2017 John Doe
+    		&copy; 2017 Kuma
     	</div>
       	<div class="footer-right">
       		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
@@ -276,25 +361,17 @@ getOwnMetadataKeys:function(t){return o(i(t),arguments.length<2?void 0:u(argumen
       
       
     
-      
-      
-      
-    
     
 
     <ul style="width: 70%">
     
     
       
-      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>
+      <li style="width: 50%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>
       
         
       
-      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'friends')"><a href="javascript:void(0)" q-class="active:friends">友链</a></li>
-      
-        
-      
-      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" q-class="active:aboutme">关于我</a></li>
+      <li style="width: 50%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" q-class="active:aboutme">关于我</a></li>
       
         
     </ul>
@@ -313,6 +390,10 @@ getOwnMetadataKeys:function(t){return o(i(t),arguments.length<2?void 0:u(argumen
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">blog</a>
+              </li>
             
             <div class="clearfix"></div>
           </ul>
@@ -358,43 +439,11 @@ getOwnMetadataKeys:function(t){return o(i(t),arguments.length<2?void 0:u(argumen
     
 
     
-    	<section class="tools-section tools-section-friends" q-show="friends">
-  		
-        <ul class="search-ul">
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接1</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接2</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接3</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接4</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接5</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接6</a>
-            </li>
-          
-        </ul>
-  		
-    	</section>
-    
 
     
     	<section class="tools-section tools-section-me" q-show="aboutme">
   	  	
-  	  		<div class="aboutme-wrap" id="js-aboutme">很惭愧&lt;br&gt;&lt;br&gt;只做了一点微小的工作&lt;br&gt;谢谢大家</div>
+  	  		<div class="aboutme-wrap" id="js-aboutme">It was the best of times, it was the worst of times,we were all going direct to Heaven,we were all going direct the other way.</div>
   	  	
     	</section>
     
